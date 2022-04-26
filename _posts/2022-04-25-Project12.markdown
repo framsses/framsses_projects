@@ -1,0 +1,9 @@
+---
+title:  "Budget Application"
+image: "/assets/img/finance.jpg"
+resume: See a repository for a Budget Application. It was used pure JS to create the actions for the app.
+link: https://github.com/framsses/Udemy-FrontEnd-Course/tree/main/html-css-js/Presupuesto
+---
+
+* JS
+* CSS

@@ -1,0 +1,10 @@
+---
+title:  "Frontend Web Developer Exercises"
+image: "/assets/img/front-end.jpg"
+resume: See a repository for the exercises of a Front End Course.
+link: https://github.com/framsses/Udemy-FrontEnd-Course
+---
+
+* HTML
+* CSS
+* JS

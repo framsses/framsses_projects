@@ -1,0 +1,9 @@
+---
+title:  "World Cup Database"
+image: "/assets/img/world-cup.jpg"
+resume: See a Bash script that enters information from World Cup games into PostgreSQL, then queries the database for useful statistics.
+link: https://github.com/framsses/WorldCup-db-freeCodeCamp
+---
+
+* Bash
+* PostgreSQL

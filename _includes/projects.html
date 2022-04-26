@@ -1,0 +1,19 @@
+<div class="user-details">
+  <h1> Blog & Projects </h1>
+</div>
+
+{% assign counter = 1 %}
+{%- for post in site.posts -%}
+<div class="user-projects">
+  <div class={{ counter | modulo: 2 | replace: '0', "images-right" | replace: '1', "images-left"}}>
+    <img alt="" src="{{ post.image | prepend: site.baseurl }}" />
+  </div>
+  <div class={{ counter | modulo: 2 | replace: '0', "contents" | replace: '1', "contents-right"}}>
+    <h3> {{post.title}}</h3>
+    {{ post.content }}
+    <p>{{post.resume}}</p>
+    <a class="project-link" href="{{ post.link }}" target="_blank">Check it out</a>
+  </div>
+</div>
+{% assign counter = counter | plus: 1 %}
+{%- endfor -%}

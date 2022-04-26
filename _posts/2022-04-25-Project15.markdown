@@ -1,0 +1,10 @@
+---
+title:  "Medical Data Visualizer"
+image: "/assets/img/medical.jpg"
+resume: See a Python script that gets data from medical examination, then shows graphs using Seaborn library.
+link: https://replit.com/@RamssesAyala/boilerplate-medical-data-visualizer#medical_data_visualizer.py:28
+---
+
+* Matplotlib
+* Seaborn
+* Pandas
